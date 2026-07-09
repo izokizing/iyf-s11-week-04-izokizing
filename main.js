@@ -93,4 +93,55 @@ for (let i = 0; i < 100; i++) {
     printTriangle(5);
 </script>
 
+<script>
+    function add(a, b) {
+        return a + b;
+    }
+    function subtract(a, b) {
+        return a - b;
+    }
+    function multiply(a, b) {
+        return a * b;
+    }
+    function divide(a, b) {
+        if (b === 0) {
+            console.log("Error: Division by zero is not allowed.");
+            return null;
+        }
+        return a / b;
+
+    }
+    function modulus(a, b) {
+        return a % b;
+    }
+    function power(a, b) {
+        return a**b;
+    }
+    function calculate(num1,operation, num2) {
+        switch (operation) {
+            case "+":
+                return add(num1, num2);
+            case "-":
+                return subtract(num1, num2);
+            case "*":
+                return multiply(num1, num2);
+            case "/":
+                return divide(num1, num2);
+            case "%":
+                return modulus(num1, num2);
+            case "**":
+                return power(num1, num2);
+            default:
+                return null;"Invalid operator.";
+                
+        }
+    }
+    console.log(calculate(10, "+", 5)); // Output: 15
+    console.log(calculate(10, "-", 5)); // Output: 5
+    console.log(calculate(10, "*", 5)); // Output: 50
+    console.log(calculate(10, "/", 5)); // Output: 2
+    console.log(calculate(10, "%", 3)); // Output: 1
+    console.log(calculate(2, "**", 3)); // Output: 8
+    console.log(calculate(10, "/", 0)); // Output: Error: Division by zero is not allowed.
+</script>
 
