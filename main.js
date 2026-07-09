@@ -202,4 +202,46 @@ for (let i = 0; i < 100; i++) {
     console.log(allPassing); // Output: true
 </script>
 
+<script>
+    const gradeTracker = {
+        students: []
+        addStudent(name, grade) {
+            
+        },
+        getStudent(name) {
+            
+        },
+        getStudentAverage(name) {
+            
+        },
+        getSubjectAverage(subject) {
+            
+        },
+        getTopStudent() {
+            
+        },
+        getStrugglingStudents() {
+
+        },
+        getLetterGrade(score) {
+            
+        },
+        generateReportCard(name) {
+            
+        }
+
+    }
+
+    gradeTracker.addStudent("Alice",{math: 85, english: 90, science: 78});
+    gradeTracker.addStudent("Bob",{math: 72, english: 65, science: 80});
+    gradeTracker.addStudent("Charlie",{math: 90, english: 88, science: 92});
+
+    console.log(gradeTracker.getStudentAverage("Alice")); // Output: 84.33
+    console.log(gradeTracker.getSubjectAverage("math")); // Output: 82.33  
+    console.log(gradeTracker.getTopStudent()); // Output: "Charlie"
+    console.log(gradeTracker.getStrugglingStudents()); // Output: ["Bob"]
+    console.log(gradeTracker.generateReportCard("Alice")); // Output: {math: "B", english: "A", science: "C"}
+</script>
+
+
 
