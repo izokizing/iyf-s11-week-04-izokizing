@@ -31,3 +31,11 @@
  console.log(evenOrOdd);
 </script>
 
+<script>
+    let name= "isaac ndegwa"
+    let parts= name.split(" ");
+    let initials= parts.map(word => word.[0].toUpperCase()).join("");
+    console.log(initials);
+</script>
+
+
