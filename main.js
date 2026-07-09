@@ -52,5 +52,45 @@
     console.log(`Total Amount: $${totalAmount.toFixed(2)}`);
 }
 </script>
+   
+<script>
+for (let i = 0; i < 100; i++) {
+    console.log(i);
+}
+</script>
+
+<script>
+    for (let i = 0; i < 100; i++) {
+        if (i % 2 === 0) {
+            console.log(i);
+        }
+    }
+</script>
+
+<script>
+    function runFizzBuzz(maxlimit) {
+        for (let i = 1; i <= maxlimit; i++) {
+            if (i % 3 === 0 && i % 5 === 0) {
+                console.log("FizzBuzz");
+            } else if (i % 3 === 0) {
+                console.log("Fizz");
+            } else if (i % 5 === 0) {
+                console.log("Buzz");
+            } else {
+                console.log(i);
+            }
+        }
+    }
+    runFizzBuzz(100);
+</script>
+   
+<script>
+    function printTriangle(rows) {
+        for (let i = 1; i <=rows; i++)
+    console.log("*".repeat(i));
+
+    }
+    printTriangle(5);
+</script>
 
 
