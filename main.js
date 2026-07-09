@@ -145,3 +145,28 @@ for (let i = 0; i < 100; i++) {
     console.log(calculate(10, "/", 0)); // Output: Error: Division by zero is not allowed.
 </script>
 
+<script>
+    const numbers = [1, 2, 3, 4, 5];
+     const doubled = numbers.map(num => num * 2);
+    console.log(doubled); // Output: [2, 4, 6, 8, 10]
+</script>
+
+<script>
+   const numbers = [1, 2, 3, 4, 5];
+    const evenNumbers = numbers.filter(num => num % 2 === 0);
+   console.log(evenNumbers); // Output: [2, 4]
+</script>
+
+<script>
+    const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+     const firstGreaterNumber = numbers.find(num => num > 10);
+    console.log(firstGreaterNumber); // Output: 11
+</script>
+
+<script>
+    const numbers = [1, 2, 3, 4, 5];
+    const totalProduct = numbers.reduce((accumulator, currentValue) => accumulator * currentValue, 1);
+    console.log(totalProduct); // Output: 120
+</script>
+
+
