@@ -50,13 +50,13 @@
     let totalAmount = billAmount + tipAmount;
     console.log(`Tip Amount: $${tipAmount.toFixed(2)}`);
     console.log(`Total Amount: $${totalAmount.toFixed(2)}`);
-}
+ }
 </script>
    
 <script>
 for (let i = 0; i < 100; i++) {
     console.log(i);
-}
+ }
 </script>
 
 <script>
