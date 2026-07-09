@@ -44,4 +44,13 @@
     console.log(reversedName);
 </script>
 
+<script>
+    function calculateTip(billAmount, tipPercentage= 15) {
+    let tipAmount = billAmount * (tipPercentage / 100);
+    let totalAmount = billAmount + tipAmount;
+    console.log(`Tip Amount: $${tipAmount.toFixed(2)}`);
+    console.log(`Total Amount: $${totalAmount.toFixed(2)}`);
+}
+</script>
+
 
